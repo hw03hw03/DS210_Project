@@ -43,7 +43,7 @@ pub fn single_node_analytics(x:usize,graph:&Graph) {
     let tuple_package = single_node_distances(x,graph);
     let num_outgoing_edges = tuple_package.0;
     let max_distance = tuple_package.1;
-    let total_distances = tuple_package.2;
+    let _total_distances = tuple_package.2;
     let average_distance = tuple_package.3;
     println!("----------------------------------------");
     println!("Starting at node: {}",x);
