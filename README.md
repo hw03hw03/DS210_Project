@@ -1,6 +1,8 @@
 # DS210_Project
 Final project for DS210 at BU in Fall 2023.
 
+Quick disclaimer: I have not reviewed the thousands of YouTube videos that were found via my webscraping and cannot ensure their appropriate content or subject-matter. The very first video that I began at was a video on Stoicism that was featured on the front page of the website in an incognito tab. I chose this video because I hope to use this data and more detailed graph analysis in a later research project on political pipelines in social media.
+
 ## list_of_edges.csv
 This file is my list of edges. There are two columns and each element is a YouTube link. The first element is the starting node and the second element is the directed ending node. I web-scraped this myself using Selenium and a recursive function that starts at one video, scrapes the recommended videos' links, randomly moves to one, and recurses. Due to the way it was gathered, the **very first node should be connected to every other node**. This will be relevant in one of my tests later.
 
