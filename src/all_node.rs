@@ -1,5 +1,4 @@
 use crate::Graph;
-use crate::Vertex;
 
 pub fn all_node_analytics(graph: &Graph){
     use crate::single_node::single_node_distances;
