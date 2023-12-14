@@ -25,6 +25,7 @@ First, I will explain the types, struct, and impl of that struct. All of them co
 
 ## Output Review and Explanation
 <img width="643" alt="image" src="https://github.com/hw03hw03/DS210_Project/assets/90813540/fe6794da-80ad-4ca7-a9d0-279c9a92997c">
+
 When we start at node 0, we can see that there are 1878 outgoing connections which is to be expected because node 0 is the starting YouTube video from which every other video (node) was walked to. Its maximum distance is 58 and its average distance is roughly 25. We can interpret these results and intuit that many of the recommended videos of certain nodes were revisited in the web-scraping process, thus creating more dense clusters than I had originally expected. The maximum possible value for maximum distance would be 150 because that is how many times I recursed in the gathering of my data.
 
 When we start at node 1, there are 0 outgoing connections and thus 0 maximum distance and NaN average distance (as it is attempting to divide by 0). This is to be expected when investigating a node that has no edges.
